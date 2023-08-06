@@ -1,0 +1,42 @@
+/* resets */
+*{
+  /*remove default margin and padding*/
+  margin: 0;
+  padding :0;
+  line-height: calc ( 0.25rem + 1rem + 0.25rem ) ;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html{
+  /*Text will only be controlled by font-size*/
+  -webkit-text-size-adjust: none;
+}
+
+ol, ul {
+  padding: 0;
+	list-style: none;
+}
+
+/*Avoid text Overflows*/
+:where(p,h1,h2, h4, h5 , h6){
+  overflow-wrap: break-word;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+ }
+
+ button, input{
+  user-select: none;
+  border: 0;
+  border-spacing: 0;
+ }

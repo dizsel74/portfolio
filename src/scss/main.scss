@@ -1,0 +1,9 @@
+@use './abstracts/' as *;
+@use './components/' as c;
+
+body{
+  background-color: $bg-color;
+}
+header{
+  display: flex;
+}

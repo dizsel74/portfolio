@@ -1,0 +1,31 @@
+@use '../abstracts/' as *;
+
+.btn{
+ color: $text-color;
+ font-family: $font-family-body;
+ font-size: 1rem;
+ font-weight: 600;
+ text-transform: uppercase;
+ text-align: center;
+ letter-spacing: 0.10156rem;
+ border-radius: 2.03125rem;
+ padding: 1.25rem 3.13rem;
+ background-color: transparent;
+}
+
+.btn__full{
+  background-color: $primary-color;
+}
+
+.btn__contour{
+  background-color: transparent;
+  border: 1px solid $primary-color;
+}
+
+.btn__contact{
+  padding: 0.94rem 2.06rem;
+  border: 2px solid $text-color;
+  border-radius: 1.875rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}

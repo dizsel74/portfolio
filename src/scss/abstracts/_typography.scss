@@ -1,0 +1,57 @@
+@use './variables' as *;
+
+
+html{
+  font-family: $font-family-body;
+  color: $text-color
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: $font-family-titles;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h1{
+  font-size: 5.125rem;
+}
+
+h2{
+  font-size: 4rem;
+}
+h3{
+  font-size: 3.5rem;
+}
+h4{
+  font-size: 1.5rem;
+  line-height: 2rem; /*133.333%*/
+}
+.brandName{
+  font-family: $font-family-titles;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.hero__uppertxt{
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.hero__subtxt{
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+.hero__complementary{
+  font-family: $font-family-titles;
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: right;
+  padding-top: 0.69rem;
+}
+
+.accent__colortxt{
+  color: $primary-color
+}
+.complementary__colortxt{
+  //color: $bg-color;
+}

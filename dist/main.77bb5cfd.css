@@ -1,0 +1,158 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Syne:wght@400;500;600;700;800&display=swap");
+/* resets */
+* {
+  /*remove default margin and padding*/
+  margin: 0;
+  padding: 0;
+  line-height: calc 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /*Text will only be controlled by font-size*/
+  -webkit-text-size-adjust: none;
+}
+
+ol, ul {
+  padding: 0;
+  list-style: none;
+}
+
+/*Avoid text Overflows*/
+:where(p, h1, h2, h4, h5, h6) {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button, input {
+  user-select: none;
+  border: 0;
+  border-spacing: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  color: #FBFBFB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 5.125rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 2rem; /*133.333%*/
+}
+
+.brandName {
+  font-family: "Syne", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.hero__uppertxt {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.hero__subtxt {
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+.hero__complementary {
+  font-family: "Syne", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: right;
+  padding-top: 0.69rem;
+}
+
+.accent__colortxt {
+  color: #FF5001;
+}
+
+.btn {
+  color: #FBFBFB;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.10156rem;
+  border-radius: 2.03125rem;
+  padding: 1.25rem 3.13rem;
+  background-color: transparent;
+}
+
+.btn__full {
+  background-color: #FF5001;
+}
+
+.btn__contour {
+  background-color: transparent;
+  border: 1px solid #FF5001;
+}
+
+.btn__contact {
+  padding: 0.94rem 2.06rem;
+  border: 2px solid #FBFBFB;
+  border-radius: 1.875rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.main-container {
+  margin-inline: 10.38rem;
+}
+
+.hero {
+  max-width: 956px;
+  margin-top: 100px;
+  border: 1px solid pink;
+}
+
+.wer {
+  display: flex;
+  justify-content: right;
+  padding-right: 6.125rem;
+  padding-top: 4.31rem;
+}
+
+body {
+  background-color: #09030F;
+}
+
+header {
+  display: flex;
+}
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */
