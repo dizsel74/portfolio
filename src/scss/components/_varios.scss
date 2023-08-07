@@ -1,18 +1,111 @@
 @use '../abstracts/' as *;
 
+// .aboveFold{
+//   background-image: url('/assets/pixel.png');
+//   background-color: aliceblue;
+//     background-repeat: no-repeat;
+//   margin-inline: auto;
+//   width:1600px 
+//   }
+
 .main-container{
-    margin-inline: 10.38rem;
-}
-.hero{
-  max-width: 956px;
-  margin-top: 100px;
- // margin-left: 10.38rem;
-  border: 1px solid pink;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-inline: 0.6rem;
+  border: 1px solid greenyellow;
 }
 
-.wer{
+
+
+.hero{
+ // max-width: 980px;
+ max-width:55.6875rem;
+// border: 1px solid pink;
+ margin-left: 6.25rem;
+ margin-top: 11.25rem;
+ margin-bottom: 5.25rem;
+}
+
+.hero__btn{
   display: flex;
-  justify-content: right;
-  padding-right: 6.125rem;
-  padding-top: 4.31rem;
+  justify-content: center;
+  //padding-right: 6.125rem; //6.125rem;
+  padding-top: 4rem;
+  
+}
+
+.about{
+ margin-inline: 6.25rem;
+ //padding-inline: 150px;
+  display: grid;
+ grid-template-columns: 2fr 1fr;
+ //gap:60px
+
+}
+.about__card{
+  
+}
+.about__title{
+margin-top: 8.12rem;
+width: 32.25rem;
+
+}
+.about__description{
+ color: $secondary-color;
+ margin-top: 1.3rem;
+ font-size: 1.125rem;
+ font-weight: 400;
+ line-height: 154.5%;
+ letter-spacing: 0.06188rem;
+ width: 39.0625rem;
+}
+.about-img{
+  width: 28.375rem;
+  margin-top:4.38rem;
+  height: 31.625rem;
+  background: pink;
+  border-radius: 8px;
+}
+
+.about__btn{
+  margin-top: 3rem;
+}
+
+.shine{
+position:absolute;
+width: 32.32138rem;
+transform: rotate(-178.318deg);
+flex-shrink: 0;
+}
+.shine__fill{
+  fill: rgba(255, 255, 255, 0.18);
+filter: blur(100px);
+}
+
+.shine__height{
+  height: 21.95869rem;
+}
+.shine__height_2{
+  height: 17.06431rem;
+  display: flex;
+  margin-left: 400px;
+}
+
+.rectangulo{
+  border: 1px solid $primary-color;
+  border-radius: 1.875rem;
+}
+.rectangulo--position-vertical{
+  position: absolute;
+  bottom:50px;
+  left: -30px;
+  width: 3.4375rem;
+  height: 11.125rem;
+}
+.rectangulo--position-horizontal{
+  position: absolute;
+  top:-18px;
+  right: 0px;
+  width: 6.875rem;
+  height: 2.125rem;
 }
