@@ -21,8 +21,11 @@ justify-content: center;
 gap:4rem;
 }
 .about__card{
-  padding-left: 1rem;
-  padding-right: 1rem;
+  //padding-left: 1rem;
+  //padding-right: 1rem;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .about__title{
 margin-top: 8.12rem;
