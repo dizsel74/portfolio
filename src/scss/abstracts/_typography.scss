@@ -26,11 +26,19 @@ h4{
   font-size: 1.5rem;
   line-height: 2rem; /*133.333%*/
 }
-.brandName{
+.brand__name{
   font-family: $font-family-titles;
-  font-size: 2.5rem;
   font-weight: 800;
   text-transform: uppercase;
+}
+.brand__name--header{
+  font-size: 2.5rem;
+}
+.brand__name--footer{
+  font-size: 6rem;
+}
+.brand__name--footer--titles{
+  line-height: 2.2rem;
 }
 .hero__uppertxt{
   font-size: 1.25rem;
@@ -54,6 +62,37 @@ h4{
   color: $primary-color
 }
 .complementary__colortxt{
-  //color: $bg-color;
-  color:pink;
+  color: $bg-color;
+  //color:pink;
+}
+
+
+
+
+
+.line-1{
+  position: relative;
+  //top: 50%;  
+  width: 24em;
+ // margin: 0 auto;
+  border-right: 2px solid $primary-color;
+  //font-size: 180%;
+  
+  white-space: nowrap;
+  overflow: hidden;
+  //transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+animation: typewriter 4s steps(44) 1s 1 normal both,
+           blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+from{width: 0;}
+to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+from{border-right-color: $primary-color;}
+to{border-right-color: transparent;}
 }
