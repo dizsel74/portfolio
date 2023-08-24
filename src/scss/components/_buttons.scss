@@ -29,3 +29,12 @@
   font-size: 0.875rem;
   font-weight: 700;
 }
+
+.about__btn{
+  margin-top: 3rem;
+  width: fit-content;
+
+  @media (max-width:375px){
+    width: auto;
+  }
+}
