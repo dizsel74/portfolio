@@ -8,10 +8,32 @@ body{
   min-height: 100vh;
 }
 nav{
-  margin-top: 2.06rem;
   display: flex;
-  margin-inline: 6.25rem;
+  max-width: 78%;
+  margin-top: 2.06rem;
+  margin-inline: auto;//6.25rem;
+  justify-content: space-between;
+ 
 }
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0; 
+    align-items: center;
+    text-transform: capitalize;
+
+    & > li{
+    margin-left: 50px;
+    cursor: pointer;
+
+    &:hover{
+      color:$primary-color
+    }
+    }
+}
+
 footer{
   background-color: #131313;
   display: flex;
