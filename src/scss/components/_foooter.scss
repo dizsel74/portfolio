@@ -1,0 +1,44 @@
+@use './abstracts/' as *;
+// **** Footer ***
+footer{
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //width: 100vw;
+  margin-top: auto; /* Empuja a la parte inferior */
+  padding-top: 2rem; /* Agrega un espacio superior */
+}
+
+.footer__head{
+  color: $primary-color;
+  margin-top:50px;
+  margin-bottom: 1.4rem;
+}
+
+.footer__anker{
+ font-size: clamp(2.1rem, 5vw, 4rem);
+ font-family: $font-family-titles;
+ 
+ & span{
+  text-decoration: underline;
+ }
+ 
+}
+
+.footer__nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-block: 4rem;
+  width: 90vw;
+  border-bottom: $secondary-color 2px solid;
+  padding-bottom: 1.5rem;
+}
+
+.footer__copyright{
+  font-size: 0.7rem;
+  color: $secondary-color;
+  line-height: 40px;
+}

@@ -1,6 +1,5 @@
 @use '../abstracts/' as *;
 
-
 .hero{
  max-width:55.6875rem;
  margin-left:11%; //11.25rem;//6.25rem;
@@ -81,11 +80,13 @@ margin-top: 8.12rem;
 .shine__height {
   height: 100%;
 }
+
 // *********** Rectangulo ******* ///
 .rectangulo{
   border: 1px solid $primary-color;
   border-radius: 1.875rem;
 }
+
 .rectangulo--position-vertical{
   position: absolute;
   bottom:50px;
@@ -93,6 +94,7 @@ margin-top: 8.12rem;
   width: 3.4375rem;
   height: 11.125rem;
 }
+
 .rectangulo--position-horizontal{
   position: absolute;
   top:-18px;
@@ -100,6 +102,7 @@ margin-top: 8.12rem;
   width: 6.875rem;
   height: 2.125rem;
 }
+
 .stack{
   display:flex;
   flex-direction: column;
@@ -115,27 +118,29 @@ margin-top: 8.12rem;
     margin-top: 100px;
   }
 }
+
 .stack_container{
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
-margin-top: 5.625rem;
-padding: 30px 40px;
-max-width: 60%;//80
-gap:20px; //50
+  margin-top: 5.625rem;
+  padding: 30px 40px;
+  max-width: 60%;//80
+  gap:20px; //50
 
-@media (max-width:425px){
-  max-width: 90%;//80
+  @media (max-width:425px){
+    max-width: 90%;//80
+  }
+
 }
 
-}
 .stack_container > img{
   margin: 10px 12px;
   width: 80px !important; //100
 
-@media (max-width:425px){
-  width: 50px !important;
-}
+  @media (max-width:425px){
+    width: 50px !important;
+  }
 }
 
 //*** Card **
@@ -146,12 +151,13 @@ gap:20px; //50
   //gap: 1rem;
   margin-block: 4.5rem;
  // margin-inline: 125px;
-   width: 80%;
+  width: 80%;
 
-   @media (max-width:450px){
+  @media (max-width:450px){
     width: 90%;
-   }
+  }
 }
+
 .card{
   //width: 35rem;
   //height: 48rem;
@@ -181,6 +187,7 @@ gap:20px; //50
   gap:1rem;
   padding-left: .5rem;  
 }
+
 .card__details{
   font-size: 1.125rem;
   display: flex;
@@ -189,36 +196,3 @@ gap:20px; //50
   padding-bottom: 1rem;
 }
 
-// **** Footer ***
-
-.footer__head{
-  color: $primary-color;
-  margin-top:50px;
-  margin-bottom: 1.4rem;
-}
-
-.footer__anker{
- font-size: clamp(2.1rem, 5vw, 4rem);
- font-family: $font-family-titles;
- 
- & span{
-  text-decoration: underline;
- }
- 
-}
-.footer__nav{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-block: 4rem;
-  width: 90vw;
-  border-bottom: $secondary-color 2px solid;
-  padding-bottom: 1.5rem;
-}
-
-.footer__copyright{
-  font-size: 0.7rem;
-  color: $secondary-color;
-  line-height: 40px;
-}

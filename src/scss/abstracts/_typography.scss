@@ -37,24 +37,21 @@ h4{
   }
   
 }
-.brand__name{
-  font-family: $font-family-titles;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-.brand__name--header{
-  font-size: 2.5rem;
-}
+
+
 .brand__name--footer{
   font-size: 6rem;
 }
+
 .brand__name--footer--titles{
   line-height: 2.2rem;
 }
+
 .hero__uppertxt{
   font-size: 1.25rem;
   font-weight: 600;
 }
+
 .hero__subtxt{
   //font-size: 2.25rem;
   font-size: clamp(1.875rem, 5vw, 2.25rem);

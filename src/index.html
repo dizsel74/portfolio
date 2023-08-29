@@ -4,30 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link  rel="stylesheet" type="text/css" href="scss/main.scss">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <title>AM</title>
 </head>
 
 <body>
- 
+ <header>
+  <button class="mobile-toggle" aria-controls="primary-navigation" aria-expanded="false">
+    <spa class="sr-only">Menu</spa>
+    <i class="fa-solid fa-bars fa-text"></i>
+    <!--<i class="fa-solid fa-x fa-text"></i>-->
+  </button>
+   <nav>
+     <div class="brand__name brand__name--header">am</div>
+     <ul class="nav__list" id="primary-navigation" data-visible="false">
+       <li>about</li>
+       <li>Work</li>
+       <li>Contact</li>
+       <li> 
+         <button class="btn btn__contact">
+           Resume
+          </button>
+        </li>
+      </ul>
+    </nav> 
+</header>
+    
     <div class="hero-container">
       <img src="/assets/pixel1.jpg" alt="" style="height: 900px;">
       <div class="main-container">
 
-        <nav>
-          <div class="brand__name brand__name--header">am</div>
-          <ul class="nav__list">
-            <li>about</li>
-            <li>Work</li>
-            <li>Contact</li>
-            <li> 
-              <button class="btn btn__contact">
-              Resume
-               </button>
-          </li>
-          </ul>
-          
-        </nav> 
-  
         <section class="hero">
             <div class="hero__uppertxt line-1 anim-typewriter">UX <span class="accent__colortxt">&</span> UI designer</div>
        
@@ -56,8 +62,6 @@
         </div>
     <div class="about">
 
-      
-
       <div class="about__card">
         <h3 class="about__title">Get to know me better</h3>
         <p class="about__description">"I specialize in bringing ideas to life through the art of UX design & UI development. Let's work together in crafting engaging and user-centered digital experiences that captivate and delight your audience."</p>
@@ -66,7 +70,6 @@
         </button>
       </div>
     
-
       <div class="about-img" >
         <div class="rectangulo rectangulo--position-horizontal"></div>
         <img src="/assets/site3.png" alt="Arturo-picture">
@@ -155,13 +158,14 @@
             <div class="card__content">
               <h4>UI Design<hr></h4>
               <div class="card__details">
-               <p>Client: General Electric </p>
-                <p>Work: Web design + Web development </p> 
+                <p>Client: General Electric Canada</p>
+                <p>Work: Adapt pages for french speaker users. + Web development </p> 
               </div>
               
             </div>
       
           </div>
+
     <div class="card">
             <div class="card__img">
               <img src="/assets/web/Pascual.png" alt="Pascual">
