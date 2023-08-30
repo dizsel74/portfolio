@@ -5,25 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link  rel="stylesheet" type="text/css" href="scss/main.scss">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <script src="/js/navigation.js" defer></script>
   <title>AM</title>
 </head>
 
 <body>
  <header>
   <button class="mobile-toggle" aria-controls="primary-navigation" aria-expanded="false">
-    <spa class="sr-only">Menu</spa>
-    <i class="fa-solid fa-bars fa-text"></i>
-    <!--<i class="fa-solid fa-x fa-text"></i>-->
+    <span class="sr-only">Menu</span>
+    <span id="hamburgerIcon"><i class="fa-solid fa-bars fa-text" aria-label="open menu"></i></span>
+    <span  id="closeIcon" hidden><i class="fa-solid fa-x fa-text" aria-label="close menu"></i></span>
   </button>
    <nav>
      <div class="brand__name brand__name--header">am</div>
      <ul class="nav__list" id="primary-navigation" data-visible="false">
        <li>about</li>
-       <li>Work</li>
+       <li>Projects</li>
        <li>Contact</li>
        <li> 
          <button class="btn btn__contact">
-           Resume
+           Resume 
           </button>
         </li>
       </ul>
@@ -66,7 +67,7 @@
         <h3 class="about__title">Get to know me better</h3>
         <p class="about__description">"I specialize in bringing ideas to life through the art of UX design & UI development. Let's work together in crafting engaging and user-centered digital experiences that captivate and delight your audience."</p>
         <button class="btn btn__full about__btn">
-          download my resume
+          my resume&nbsp;&nbsp;<i class="fa-solid fa-file-arrow-down"></i>
         </button>
       </div>
     
@@ -159,7 +160,7 @@
               <h4>UI Design<hr></h4>
               <div class="card__details">
                 <p>Client: General Electric Canada</p>
-                <p>Work: Adapt pages for french speaker users. + Web development </p> 
+                <p>Work: UX/UI for french speakers</p> 
               </div>
               
             </div>
@@ -249,7 +250,7 @@
               <div class="brand__name brand__name--footer "><a>AM</a></div>
               <div>
                 <h4 class="brand__name--footer--titles">Explore</h4>
-                <ul class="second__colortxt">
+                <ul class="second__colortxt footer__list">
                 <li><a>Home</a></li>
                 <li><a>About Me</a></li>
                 <li><a>Tech Stack</a></li>
@@ -258,12 +259,14 @@
               </div>
               <div>
                 <h4 class="brand__name--footer--titles">Contact</h4>
-                <ul class="second__colortxt">
-                  <li><a>LinkedIn</a></li> 
+                <ul class="second__colortxt footer__list" style="display:flex; flex-direction: row; gap:1em; ">
+                  <!--<li><a>LinkedIn</a> <i class="fa-brands fa-linkedin"></i></li>--> 
+                  <li><a> <i class="fa-brands fa-linkedin" style="font-size: 1.025rem;"></i></a></li> 
+                  <li><a> <i class="fas fa-envelope"></i></a></li>
                  </ul>
                  
                  <div style="padding-top: 1rem;">
-                   <h4 class="brand__name--footer--titles"><a>Resume</a></h4>
+                   <h4 class="brand__name--footer--titles"><a>Resume</a> <i class="fa-solid fa-file-arrow-down" style="font-size: 1.025rem;"></i></h4>
                 </div>
               </div>
           </div>

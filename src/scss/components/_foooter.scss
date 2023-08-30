@@ -42,3 +42,7 @@ footer{
   color: $secondary-color;
   line-height: 40px;
 }
+
+.footer__list > li:hover{
+ color: $primary-color;
+}

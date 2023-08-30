@@ -45,6 +45,11 @@ h4{
 
 .brand__name--footer--titles{
   line-height: 2.2rem;
+
+  &:hover{
+    color: unset;
+    cursor: unset;
+  }
 }
 
 .hero__uppertxt{
