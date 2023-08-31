@@ -17,11 +17,11 @@
     <span  id="closeIcon" hidden><i class="fa-solid fa-x fa-text" aria-label="close menu"></i></span>
   </button>
    <nav>
-     <div class="brand__name brand__name--header">am</div>
+     <div class="brand__name brand__name--header"><a href="#home">am</a></div>
      <ul class="nav__list" id="primary-navigation" data-visible="false">
-       <li>about</li>
-       <li>Projects</li>
-       <li>Contact</li>
+       <li><a href="#about">about</a></li>
+       <li><a href="#projects">Projects</a></li>
+       <li><a href="#">Contact</a></li>
        <li> 
          <button class="btn btn__contact">
            Resume 
@@ -31,7 +31,7 @@
     </nav> 
 </header>
     
-    <div class="hero-container">
+    <div class="hero-container" id="home">
       <img src="/assets/pixel1.jpg" alt="" style="height: 900px;">
       <div class="main-container">
 
@@ -42,9 +42,9 @@
             <p class="hero__subtxt">I Love exceptional user experiences & stunning interfaces.</p>
             <div class="hero__complementary complementary__colortxt">So let’s work together.</div>
             <div class="hero__btn">
-              <button class="btn btn__full">
+              <a href="#projects"> <button class="btn btn__full">
                 View my work
-              </button>
+              </button></a>
             </div>
         </section>
         <div class="shine shine__fill shine__height">
@@ -61,7 +61,7 @@
             </defs>
           </svg>
         </div>
-    <div class="about">
+    <div class="about" id="about">
 
       <div class="about__card">
         <h3 class="about__title">Get to know me better</h3>
@@ -79,7 +79,7 @@
     
      </div>
     
-      <div class="stack">
+      <div class="stack" id="stack">
         <h2>My Tech Stack</h2>
     
         <div class="shine shine__fill shine__height">
@@ -128,7 +128,7 @@
         </svg>
        </div>
       
-      <div class="stack stack_projects">
+      <div class="stack stack_projects" id="projects">
         <h2 style="text-align: center;">It's time to meet the Projects</h2>
         
 
@@ -247,21 +247,21 @@
           <h4 class="footer__head">Let's get in touch</h4>
           <a class="footer__anker">arturo<span>@</span>iamuxui.dev</a>
           <div class="footer__nav">
-              <div class="brand__name brand__name--footer "><a>AM</a></div>
+              <div class="brand__name brand__name--footer "><a href="#home">AM</a></div>
               <div>
                 <h4 class="brand__name--footer--titles">Explore</h4>
                 <ul class="second__colortxt footer__list">
-                <li><a>Home</a></li>
-                <li><a>About Me</a></li>
-                <li><a>Tech Stack</a></li>
-                <li><a>Projects</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#stack">Tech Stack</a></li>
+                <li><a href="#projects">Projects</a></li>
               </ul>
               </div>
               <div>
                 <h4 class="brand__name--footer--titles">Contact</h4>
                 <ul class="second__colortxt footer__list" style="display:flex; flex-direction: row; gap:1em; ">
                   <!--<li><a>LinkedIn</a> <i class="fa-brands fa-linkedin"></i></li>--> 
-                  <li><a> <i class="fa-brands fa-linkedin" style="font-size: 1.025rem;"></i></a></li> 
+                  <li><a href="https://www.linkedin.com/in/arturo-mendoza-rendon/"> <i class="fa-brands fa-linkedin" style="font-size: 1.025rem;"></i></a></li> 
                   <li><a> <i class="fas fa-envelope"></i></a></li>
                  </ul>
                  
@@ -272,11 +272,13 @@
           </div>
             <p class="footer__copyright">last update 2023</p>
         </footer>
-      
+        
+        
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
 
      </div>
     </div>
    
-  
+    
 </body>
 </html>
