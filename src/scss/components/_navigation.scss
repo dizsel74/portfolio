@@ -3,7 +3,7 @@
 header{
   z-index: 2;
   position: absolute;
-  width: 99vw;
+  width: 99.9vw;
 
   @media(max-width:650px){
     //background-color: $bg-color;
@@ -70,6 +70,11 @@ nav{
   font-family: $font-family-titles;
   font-weight: 800;
   text-transform: uppercase;
+  padding-inline: 20px;
+}
+
+.helper{
+  padding-inline: 20px;
 }
 
 .brand__name--header{
@@ -90,7 +95,6 @@ nav{
      position: fixed;
   }
 }
-
 
 
 .fa-text{
