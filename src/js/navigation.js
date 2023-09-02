@@ -2,11 +2,25 @@ document.addEventListener('DOMContentLoaded', function() {
 console.log('JavaScript file loaded');
 
 const primaryNav = document.querySelector('.nav__list');
+const navItems = document.querySelectorAll('.nav-item');
 const navToggle = document.querySelector('.mobile-toggle');
-
 const iconHamburger = document.getElementById('hamburgerIcon');
 const iconClose = document.getElementById('closeIcon')
+// Function to close the mobile menu
+function closeMobileMenu() {
+  primaryNav.setAttribute('data-visible', false);
+  navToggle.setAttribute('aria-expanded', false);
+  iconClose.style.display = 'none';
+  iconHamburger.style.display = 'block';
+}
 
+// Add click event listeners to each li element
+navItems.forEach(function(navItem) {
+  navItem.addEventListener('click', function() {
+    closeMobileMenu();
+  });
+});
+// toogle
 navToggle.addEventListener('click', () => {
   const visibility = primaryNav.getAttribute('data-visible');
     console.log(visibility);
@@ -17,10 +31,11 @@ navToggle.addEventListener('click', () => {
     iconClose.style.display='block';
     iconHamburger.style.display='none';
   }else {
-    primaryNav.setAttribute('data-visible', false);
+    /*primaryNav.setAttribute('data-visible', false);
     navToggle.setAttribute('aria-expanded', false);
     iconClose.style.display='none';
-    iconHamburger.style.display='block';
+    iconHamburger.style.display='block';*/
+    closeMobileMenu();
   }
 });
 
