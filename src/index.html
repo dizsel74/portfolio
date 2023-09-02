@@ -18,13 +18,15 @@
     <span  id="closeIcon" hidden><i class="fa-solid fa-x fa-text" aria-label="close menu"></i></span>
   </button>
    <nav>
-     <div class="brand__name brand__name--header"><a href="#home">am</a></div>
+     <div class="brand__name brand__name--header"><a href="#home" aria-label="Home">am</a></div>
      <ul class="nav__list" id="primary-navigation" data-visible="false">
-       <li class="nav-item"><a href="#about">about</a></li>
-       <li class="nav-item"><a href="#projects">Projects</a></li>
-       <li class="nav-item"><a href="mailto:arturo@iamuxui.dev?subject=Contact%20me">Contact</a></li>
+       <li class="nav-item"><a href="#about" arial-label="About">about</a></li>
+       <li class="nav-item"><a href="#projects" arial-label="Projects">Projects</a></li>
+       <li class="nav-item">
+        <a href="mailto:arturo@iamuxui.dev?subject=Contact%20me" aria-label="send mail to arturo">Contact</a>
+       </li>
        <li class="nav-item"> 
-         <a href='./assets/Arturo_MR_UXUI.pdf' download><button class="btn btn__contact">
+         <a href='./assets/Arturo_MR_UXUI.pdf' download aria-label="Downloan Arturo resume"><button class="btn btn__contact">
            Resume 
           </button></a>
         </li>
@@ -67,7 +69,7 @@
       <div class="about__card">
         <h3 class="about__title">Get to know me better</h3>
         <p class="about__description">"I specialize in bringing ideas to life through the art of UX design & UI development. Let's work together in crafting engaging and user-centered digital experiences that captivate and delight your audience."</p>
-        <a href='./assets/Arturo_MR_UXUI.pdf' download class="altura__2">
+        <a href='./assets/Arturo_MR_UXUI.pdf' download class="altura__2" aria-label="Downloan Arturo resume">
           <button class="btn btn__full about__btn">
             my resume&nbsp;&nbsp;<i class="fa-solid fa-file-arrow-down"></i> 
           </button>
@@ -268,13 +270,21 @@
                 <h4 class="brand__name--footer--titles">Contact</h4>
                 <ul class="second__colortxt footer__list" style="display:flex; flex-direction: row; gap:1em; ">
                   <!--<li><a>LinkedIn</a> <i class="fa-brands fa-linkedin"></i></li>--> 
-                  <li><a href="https://www.linkedin.com/in/arturo-mendoza-rendon/"> <i class="fa-brands fa-linkedin" style="font-size: 1.025rem;"></i></a></li> 
-                  <li><a href='mailto:arturo@iamuxui.dev?subject=Contact%20me'><i class="fas fa-envelope"></i></a></li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/arturo-mendoza-rendon/" aria-label="link to arturos linkedin"> 
+                      <i class="fa-brands fa-linkedin" style="font-size: 1.025rem;"></i>
+                    </a>
+                  </li> 
+                  <li>
+                    <a href='mailto:arturo@iamuxui.dev?subject=Contact%20me' aria-label="send mail to arturo">
+                      <i class="fas fa-envelope"></i>
+                    </a>
+                  </li>
                  </ul>
                  
                  <div style="padding-top: 1rem;">
                    <h4 class="brand__name--footer--titles">
-                    <a href='./assets/Arturo_MR_UXUI.pdf' download>Resume <i class="fa-solid fa-file-arrow-down" style="font-size: 1.025rem;"></i>
+                    <a href='./assets/Arturo_MR_UXUI.pdf' download aria-label="Downloan Arturo resume">Resume <i class="fa-solid fa-file-arrow-down" style="font-size: 1.025rem;"></i>
                     </a>
                   </h4>
                 </div>
@@ -284,7 +294,7 @@
         </footer>
         
         
-        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+        <button onclick="topFunction()" id="myBtn" title="Go to top" aria-label="button to scroll to the top"><i class="fa-solid fa-arrow-up"></i></button>
 
      </div>
     </div>
