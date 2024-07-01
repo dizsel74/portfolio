@@ -1,339 +1,597 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Welcome to the portfolio of Arturo, a UX/ UI designer and web developer. Explore a collection of project showcasing skils in web design, UX research, Ui design and web development.">
-  <link rel="icon" href="/assets/favicon-32x32.png" type="image/x-icon">
-  <link  rel="stylesheet" type="text/css" href="scss/main.scss">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <script src="/js/navigation.js" defer></script>
-  <title>AM portfolio</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to the portfolio of Arturo, a UX/ UI designer and web developer. Explore a collection of project showcasing skils in web design, UX research, Ui design and web development."
+    />
+    <link rel="icon" href="/assets/favicon-32x32.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="scss/main.scss" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <script src="/js/navigation.js" defer></script>
+    <title>AM portfolio</title>
+  </head>
 
-<body>
- <header>
-  <button class="mobile-toggle" aria-controls="primary-navigation" aria-expanded="false">
-    <span class="sr-only">Menu</span>
-    <span id="hamburgerIcon">
-      <i class="fa-solid fa-bars fa-text" aria-label="Open menu"></i>
-    </span>
-    <span  id="closeIcon" hidden>
-      <i class="fa-solid fa-x fa-text" aria-label="close menu"></i>
-    </span>     
-  </button>
-   <nav>
-     <div class="brand__name brand__name--header"><a href="#home" aria-label="Home">am</a></div>
-     <ul class="nav__list" id="primary-navigation" data-visible="false">
-       <li class="nav-item"><a href="#about" arial-label="About">about</a></li>
-       <li class="nav-item"><a href="#projects" arial-label="Projects">Projects</a></li>
-       <li class="nav-item">
-        <a href="mailto:arturo@iamuxui.dev?subject=Contact%20me" aria-label="send mail to arturo">Contact</a>
-       </li>
-       <li class="nav-item"> 
-         <a href='./assets/Arturo_MR_UXUI.pdf' download aria-label="Downloan Arturo resume"><button class="btn btn__contact">
-           Resume 
-          </button></a>
-        </li>
-      </ul>
-    </nav> 
-</header>
-    
+  <body>
+    <header>
+      <button
+        class="mobile-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Menu</span>
+        <span id="hamburgerIcon">
+          <i class="fa-solid fa-bars fa-text" aria-label="Open menu"></i>
+        </span>
+        <span id="closeIcon" hidden>
+          <i class="fa-solid fa-x fa-text" aria-label="close menu"></i>
+        </span>
+      </button>
+      <nav>
+        <div class="brand__name brand__name--header">
+          <a href="#home" aria-label="Home">am</a>
+        </div>
+        <ul class="nav__list" id="primary-navigation" data-visible="false">
+          <li class="nav-item">
+            <a href="#about" arial-label="About">about</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" arial-label="Projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="mailto:arturo@iamuxui.dev?subject=Contact%20me"
+              aria-label="send mail to arturo"
+              >Contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="./assets/Arturo_MR_UXUI.pdf"
+              download
+              aria-label="Downloan Arturo resume"
+              ><button class="btn btn__contact">Resume</button></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
     <div class="hero-container" id="home">
-      <img src="/assets/pixel1.webp" alt="" style="height: 900px;">
+      <img src="/assets/pixel1.webp" alt="" style="height: 900px" />
       <div class="main-container">
-
         <section class="hero">
-            <div class="hero__uppertxt line-1 anim-typewriter">UX <span class="accent__colortxt">&</span> UI designer</div>
-       
-            <h1 class="">My name is Arturo</h1>
-            <p class="hero__subtxt">I Love exceptional user experiences & stunning interfaces.</p>
-            <div class="hero__complementary complementary__colortxt">So let’s work together.</div>
-            <div class="hero__btn">
-              <a href="#projects"> <button class="btn btn__full">
-                View my work
-              </button></a>
-            </div>
+          <div class="hero__uppertxt line-1 anim-typewriter">
+            UX <span class="accent__colortxt">&</span> UI designer
+          </div>
+
+          <h1 class="">My name is Arturo</h1>
+          <p class="hero__subtxt">
+            I Love exceptional user experiences & stunning interfaces.
+          </p>
+          <div class="hero__complementary complementary__colortxt">
+            So let’s work together.
+          </div>
+          <div class="hero__btn">
+            <a href="#projects">
+              <button class="btn btn__full">View my work</button></a
+            >
+          </div>
         </section>
         <div class="shine shine__fill shine__height">
-          <svg xmlns="http://www.w3.org/2000/svg" width="917" height="753" viewBox="0 0 917 753" fill="none">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="917"
+            height="753"
+            viewBox="0 0 917 753"
+            fill="none"
+          >
             <g filter="url(#filter0_f_306_245)">
-              <path d="M483.201 551.614C578.372 542.764 640.747 497.081 701.818 391.499C825.536 177.611 111.276 116.005 209.281 349.017C271.076 495.936 361.637 562.917 483.201 551.614Z" fill="white" fill-opacity="0.18"/>
+              <path
+                d="M483.201 551.614C578.372 542.764 640.747 497.081 701.818 391.499C825.536 177.611 111.276 116.005 209.281 349.017C271.076 495.936 361.637 562.917 483.201 551.614Z"
+                fill="white"
+                fill-opacity="0.18"
+              />
             </g>
             <defs>
-              <filter id="filter0_f_306_245" x="0.012207" y="0.425049" width="916.254" height="752.412" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_306_245"/>
+              <filter
+                id="filter0_f_306_245"
+                x="0.012207"
+                y="0.425049"
+                width="916.254"
+                height="752.412"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="100"
+                  result="effect1_foregroundBlur_306_245"
+                />
               </filter>
             </defs>
           </svg>
         </div>
-    <div class="about" id="about">
+        <div class="about" id="about">
+          <div class="about__card">
+            <h3 class="about__title">Get to know me better</h3>
+            <p class="about__description">
+              "I specialize in bringing ideas to life through the art of UX
+              design & UI development. Let's work together in crafting engaging
+              and user-centered digital experiences that captivate and delight
+              your audience."
+            </p>
+            <a
+              href="./assets/Arturo_MR_UXUI.pdf"
+              download
+              class="altura__2"
+              aria-label="Downloan Arturo resume"
+            >
+              <button class="btn btn__full about__btn">
+                my resume&nbsp;&nbsp;<i class="fa-solid fa-file-arrow-down"></i>
+              </button>
+            </a>
+          </div>
 
-      <div class="about__card">
-        <h3 class="about__title">Get to know me better</h3>
-        <p class="about__description">"I specialize in bringing ideas to life through the art of UX design & UI development. Let's work together in crafting engaging and user-centered digital experiences that captivate and delight your audience."</p>
-        <a href='./assets/Arturo_MR_UXUI.pdf' download class="altura__2" aria-label="Downloan Arturo resume">
-          <button class="btn btn__full about__btn">
-            my resume&nbsp;&nbsp;<i class="fa-solid fa-file-arrow-down"></i> 
-          </button>
-        </a>
-      </div>
-    
-      <div class="about-img" >
-        <div class="rectangulo rectangulo--position-horizontal"></div>
-        <img src="/assets/site3.webp" alt="Arturo-picture" loading="lazy">
-        <div class="rectangulo rectangulo--position-vertical"></div>
-      </div>
-    
-     </div>
-    
-      <div class="stack" id="stack">
-        <h2>My Tech Stack</h2>
-    
-        <div class="shine shine__fill shine__height">
-          <svg xmlns="http://www.w3.org/2000/svg" width="917" height="753" viewBox="0 0 917 753" fill="none">
+          <div class="about-img">
+            <div class="rectangulo rectangulo--position-horizontal"></div>
+            <img src="/assets/site3.webp" alt="Arturo-picture" loading="lazy" />
+            <div class="rectangulo rectangulo--position-vertical"></div>
+          </div>
+        </div>
+
+        <div class="stack" id="stack">
+          <h2>My Tech Stack</h2>
+
+          <div class="shine shine__fill shine__height">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="917"
+              height="753"
+              viewBox="0 0 917 753"
+              fill="none"
+            >
+              <g filter="url(#filter0_f_306_245)">
+                <path
+                  d="M483.201 551.614C578.372 542.764 640.747 497.081 701.818 391.499C825.536 177.611 111.276 116.005 209.281 349.017C271.076 495.936 361.637 562.917 483.201 551.614Z"
+                  fill="white"
+                  fill-opacity="0.18"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_306_245"
+                  x="0.012207"
+                  y="0.425049"
+                  width="916.254"
+                  height="752.412"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="100"
+                    result="effect1_foregroundBlur_306_245"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+
+          <div class="stack_container rectangulo">
+            <img src="./assets/icons/icons8-html-5-100.png" alt="git" />
+            <img src="./assets/icons/icons8-css3-100.png" alt="git" />
+            <img src="./assets/icons/icons8-js-100.png" alt="git" />
+            <img src="./assets/icons/icons8-sass-100.png" alt="git" />
+            <img src="./assets/icons/icons8-react-100.png" alt="git" />
+            <img src="./assets/icons/icons8-material-ui-100.png" alt="git" />
+            <img src="./assets/icons/icons8-mysql-100.png" alt="git" />
+            <img src="./assets/icons/icons8-php-100.png" alt="git" />
+            <img src="./assets/icons/icons8-figma-100.png" alt="git" />
+            <img src="./assets/icons/icons8-bootstrap-100.png" alt="git" />
+            <img src="./assets/icons/icons8-adobe-100.png" alt="adobe" />
+            <img src="./assets/icons/icons8-git-100.png" alt="git" />
+          </div>
+        </div>
+
+        <div
+          class="shine shine__fill shine__height"
+          style="width: 10rem; transform: rotate(178.318deg); flex-shrink: 0"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="917"
+            height="753"
+            viewBox="0 0 917 753"
+            fill="none"
+          >
             <g filter="url(#filter0_f_306_245)">
-              <path d="M483.201 551.614C578.372 542.764 640.747 497.081 701.818 391.499C825.536 177.611 111.276 116.005 209.281 349.017C271.076 495.936 361.637 562.917 483.201 551.614Z" fill="white" fill-opacity="0.18"/>
+              <path
+                d="M483.201 551.614C578.372 542.764 640.747 497.081 701.818 391.499C825.536 177.611 111.276 116.005 209.281 349.017C271.076 495.936 361.637 562.917 483.201 551.614Z"
+                fill="white"
+                fill-opacity="0.18"
+              />
             </g>
             <defs>
-              <filter id="filter0_f_306_245" x="0.012207" y="0.425049" width="916.254" height="752.412" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-              <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_306_245"/>
+              <filter
+                id="filter0_f_306_245"
+                x="0.012207"
+                y="0.425049"
+                width="916.254"
+                height="752.412"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="100"
+                  result="effect1_foregroundBlur_306_245"
+                />
               </filter>
             </defs>
           </svg>
         </div>
 
-        <div class="stack_container rectangulo">
-          <img src="./assets/icons/icons8-html-5-100.png" alt="git">
-          <img src="./assets/icons/icons8-css3-100.png" alt="git">
-          <img src="./assets/icons/icons8-js-100.png" alt="git">
-          <img src="./assets/icons/icons8-sass-100.png" alt="git">
-          <img src="./assets/icons/icons8-react-100.png" alt="git">
-          <img src="./assets/icons/icons8-material-ui-100.png" alt="git">
-          <img src="./assets/icons/icons8-mysql-100.png" alt="git">
-          <img src="./assets/icons/icons8-php-100.png" alt="git">
-          <img src="./assets/icons/icons8-figma-100.png" alt="git">
-          <img src="./assets/icons/icons8-bootstrap-100.png" alt="git">
-          <img src="./assets/icons/icons8-adobe-100.png" alt="adobe">
-          <img src="./assets/icons/icons8-git-100.png" alt="git">
+        <div class="stack stack_projects" id="projects">
+          <h2 style="text-align: center">It's time to meet the Projects</h2>
+
+          <!--<button class="btn btn__contour" style="margin-top:5rem;">Explore MOre</button>-->
+
+          <div
+            class="shine shine__fill shine__height"
+            style="
+              width: 18rem;
+              height: 11.24825rem;
+              transform: rotate(-178.318deg);
+              flex-shrink: 0;
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="741"
+              height="581"
+              viewBox="0 0 741 581"
+              fill="none"
+            >
+              <g filter="url(#filter0_f_306_246)">
+                <path
+                  d="M388.282 380.438C450.966 376.314 491.877 353.176 531.67 299.342C612.284 190.284 141.291 155.64 206.885 275.452C248.243 350.996 308.215 385.706 388.282 380.438Z"
+                  fill="white"
+                  fill-opacity="0.82"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_f_306_246"
+                  x="0.595703"
+                  y="0.187988"
+                  width="740.389"
+                  height="580.771"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="BackgroundImageFix"
+                    result="shape"
+                  />
+                  <feGaussianBlur
+                    stdDeviation="100"
+                    result="effect1_foregroundBlur_306_246"
+                  />
+                </filter>
+              </defs>
+            </svg>
+          </div>
+
+          <div class="card__container">
+            <div class="card">
+              <div class="card__img">
+                <img src="/assets/web/USAA.png" alt="USAA" loading="lazy" />
+              </div>
+              <div class="card__content">
+                <h4 class="tooltip">
+                  <a
+                    href="https://www.usaa.com/?wa_ref=pub_global_home"
+                    target="_blank"
+                    >UI Design</a
+                  >
+                  <span class="tooltiptext">Click to visit site</span>
+                  <hr />
+                </h4>
+                <div class="card__details">
+                  <p>Client: USSA</p>
+                  <p>Work: UI design</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img
+                  src="/assets/web/Cafe.png"
+                  alt="Cafe Mabe"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card__content">
+                <h4>
+                  <a href="https://cafeappliances.ca/en_CA/" target="_blank"
+                    >UI Design</a
+                  >
+                  <hr />
+                </h4>
+                <div class="card__details">
+                  <p>Client: Caf&eacute; Canada</p>
+                  <p>Work: UI designs</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img
+                  src="/assets/web/GE.png"
+                  alt="General Electric"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card__content">
+                <h4>
+                  <a href="https://geappliances.ca/" target="_blank"
+                    >UI Design</a
+                  >
+                  <hr />
+                </h4>
+                <div class="card__details">
+                  <p>Client: GE Appliances Canada</p>
+                  <p>Work: UX/UI for french speakers</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="/assets/web/eQ2.webp" alt="Equine" loading="lazy" />
+              </div>
+              <div class="card__content">
+                <h4>
+                  UX + UI design
+                  <hr />
+                </h4>
+                <div class="card__details">
+                  <p>Client: Power of Equines</p>
+                  <p>Work: Registration Design + Prototype</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img
+                  src="/assets/web/Pascual.png"
+                  alt="Pascual"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card__content">
+                <h4>
+                  <a href="https://pascualcontigo.com/es/" target="_blank"
+                    >UX + UI design</a
+                  >
+                  <hr />
+                </h4>
+                <div class="card__details">
+                  <p>Client: Pascual</p>
+                  <p>Work: Web design + Web development</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img
+                  src="/assets/web/Bickley.png"
+                  alt="Bickley"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card__content">
+                <h4>
+                  <a
+                    href="https://nutecbickley.com/es/que-hacemos/hornos-industriales-para-ceramica-y-materiales-avanzados"
+                    target="_blank"
+                    >UX + UI upgrade</a
+                  >
+                  <hr />
+                </h4>
+                <div class="card__details">
+                  <p>Client: Bickley</p>
+                  <p>Work: User Experience an User Interfaces upgrade.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="/assets/web/Ln1.webp" alt="Equine" loading="lazy" />
+              </div>
+              <div class="card__content">
+                <h4>
+                  UX + UI design
+                  <hr />
+                </h4>
+                <div class="card__details">
+                  <p>Client: Lencero Groceries</p>
+                  <p>Work: Web + App design</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="/assets/web/Shasa.png" alt="Shasa" loading="lazy" />
+              </div>
+              <div class="card__content">
+                <h4>
+                  <a href="https://shasa.com//" target="_blank"
+                    >UX checkout re-design</a
+                  >
+                  <hr />
+                </h4>
+                <div class="card__details">
+                  <p>Client : Shasa</p>
+                  <p>Work : User Experience redisign for Checkout process</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img src="/assets/web/Nutec.png" alt="Nutec" loading="lazy" />
+              </div>
+              <div class="card__content">
+                <h4>
+                  <a href="https://nutec.com/es" target="_blank">UI upgrade</a>
+
+                  <hr />
+                </h4>
+                <div class="card__details">
+                  <p>Client : Nutec Mex & USA</p>
+                  <p>Work : Upgrade & redesing of the User interface</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__img">
+                <img
+                  src="/assets/web/Entorno.png"
+                  alt="Entorno"
+                  loading="lazy"
+                />
+              </div>
+              <div class="card__content">
+                <h4>
+                  <a href="https://www.entornopolitico.com/" target="_blank"
+                    >Web Design + development</a
+                  >
+                  <hr />
+                </h4>
+                <div class="card__details">
+                  <p>Client : Entorno Pol&iacute;tico</p>
+                  <p>Work : Design + development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--<button class="btn btn__contour" style="margin-bottom:5rem;">Explore MOre</button> -->
         </div>
-      </div>
-      
-      <div class="shine shine__fill shine__height" style="width: 10rem; transform: rotate(178.318deg); flex-shrink: 0;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="917" height="753" viewBox="0 0 917 753" fill="none">
-          <g filter="url(#filter0_f_306_245)">
-            <path d="M483.201 551.614C578.372 542.764 640.747 497.081 701.818 391.499C825.536 177.611 111.276 116.005 209.281 349.017C271.076 495.936 361.637 562.917 483.201 551.614Z" fill="white" fill-opacity="0.18"/>
-          </g>
-          <defs>
-            <filter id="filter0_f_306_245" x="0.012207" y="0.425049" width="916.254" height="752.412" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-              <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_306_245"/>
-            </filter>
-          </defs>
-        </svg>
-       </div>
-      
-      <div class="stack stack_projects" id="projects">
-        <h2 style="text-align: center;">It's time to meet the Projects</h2>
-        
 
-        <!--<button class="btn btn__contour" style="margin-top:5rem;">Explore MOre</button>-->
-
-       <div class="shine shine__fill shine__height" style="width: 18rem;
-        height: 11.24825rem;
-        transform: rotate(-178.318deg);
-        flex-shrink: 0;">
-          <svg xmlns="http://www.w3.org/2000/svg" width="741" height="581" viewBox="0 0 741 581" fill="none">
-            <g filter="url(#filter0_f_306_246)">
-              <path d="M388.282 380.438C450.966 376.314 491.877 353.176 531.67 299.342C612.284 190.284 141.291 155.64 206.885 275.452C248.243 350.996 308.215 385.706 388.282 380.438Z" fill="white" fill-opacity="0.82"/>
-            </g>
-            <defs>
-              <filter id="filter0_f_306_246" x="0.595703" y="0.187988" width="740.389" height="580.771" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-                <feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_306_246"/>
-              </filter>
-            </defs>
-          </svg>
-         </div>
-
-        <div class="card__container">
-    
-          <div class="card">
-            <div class="card__img">
-              <img src="/assets/web/GE.png" alt="General Electric" loading="lazy">
-            </div> 
-            <div class="card__content">
-              <h4>UI Design<hr></h4>
-              <div class="card__details">
-                <p>Client: General Electric Canada</p>
-                <p>Work: UX/UI for french speakers</p> 
-              </div>
-              
-            </div>
-      
-          </div>
-
-          <div class="card">
-            <div class="card__img">
-              <img src="/assets/web/eQ2.webp" alt="Equine" loading="lazy">
-            </div> 
-            <div class="card__content">
-              <h4>UX + UI design <hr></h4>
-              <div class="card__details">
-               <p>Client: Power of Equines</p>
-                <p>Work: Registration Design + Prototype</p> 
-              </div>
-            </div>
-          </div>
-
-         
-
-          <div class="card">
-            <div class="card__img">
-              <img src="/assets/web/Pascual.png" alt="Pascual" loading="lazy">
-            </div> 
-            <div class="card__content">
-              <h4>UX + UI design <hr></h4>
-              <div class="card__details">
-               <p>Client: Pascual </p>
-                <p>Work: Web design + Web development </p> 
-              </div>
-            </div>
-      
-          </div>
-    
-          <div class="card">
-            <div class="card__img">
-              <img src="/assets/web/Bickley.png" alt="Bickley" loading="lazy">
-            </div> 
-            <div class="card__content">
-              <h4>UX + UI upgrade<hr></h4>
-              <div class="card__details">
-               <p>Client: Bickley </p>
-                <p>Work: User Experience an User Interfaces upgrade.</p> 
-              </div>
-            </div>
-      
-          </div>
-    
-          <div class="card">
-            <div class="card__img">
-              <img src="/assets/web/Ln1.webp" alt="Equine" loading="lazy">
-            </div> 
-            <div class="card__content">
-              <h4>UX + UI design <hr></h4>
-              <div class="card__details">
-               <p>Client: Lencero Groceries</p>
-               <p>Work: Web + App design </p> 
-              </div>
-            </div>
-          </div>
-
-
-          <div class="card">
-            <div class="card__img">
-              <img src="/assets/web/Shasa.png" alt="Shasa" loading="lazy">
-            </div> 
-            <div class="card__content">
-              <h4>UX re-design for the checkout<hr></h4>
-              <div class="card__details">
-               <p>Client : Shasa </p>
-                <p>Work : User Experience redisign for Checkout process</p> 
-              </div>
-            </div>
-          </div>
-    
-          <div class="card">
-            <div class="card__img">
-              <img src="/assets/web/Nutec.png" alt="Nutec" loading="lazy">
-            </div> 
-            <div class="card__content">
-              <h4>UI upgrade<hr></h4>
-              <div class="card__details">
-               <p>Client : Nutec Mex & USA</p>
-                <p>Work : Upgrade & redesing of the User interface </p> 
-              </div>
-            </div>
-          </div>
-    
-          <div class="card">
-            <div class="card__img">
-              <img src="/assets/web/Entorno.png" alt="Entorno" loading="lazy">
-            </div> 
-            <div class="card__content">
-              <h4>Web Design + development<hr></h4>
-              <div class="card__details">
-               <p>Client : Entorno Pol&iacute;tico </p>
-               <p>Work : Design + development </p> 
-              </div>
-            </div>
-          </div>
-       
-        </div> 
-
-        <!--<button class="btn btn__contour" style="margin-bottom:5rem;">Explore MOre</button> -->
-
-      </div>
-     
-    
-      
-      
         <footer>
-          
           <h4 class="footer__head">Let's get in touch</h4>
-          <a class="footer__anker" href="mailto:arturo@iamuxui.dev?subject=Contact%20me">arturo<span>@</span>iamuxui.dev</a>
+          <a
+            class="footer__anker"
+            href="mailto:arturo@iamuxui.dev?subject=Contact%20me"
+            >arturo<span>@</span>iamuxui.dev</a
+          >
           <div class="footer__nav">
-              <div class="brand__name brand__name--footer "><a href="#home">AM</a></div>
-             
-              <div class="helper">
-                <h4 class="brand__name--footer--titles">Explore</h4>
-                <ul class="second__colortxt footer__list">
+            <div class="brand__name brand__name--footer">
+              <a href="#home">AM</a>
+            </div>
+
+            <div class="helper">
+              <h4 class="brand__name--footer--titles">Explore</h4>
+              <ul class="second__colortxt footer__list">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#stack">Tech Stack</a></li>
                 <li><a href="#projects">Projects</a></li>
-               </ul>
-              </div>
+              </ul>
+            </div>
 
-              <div class="helper">
-                <h4 class="brand__name--footer--titles">Contact</h4>
-                <ul class="second__colortxt footer__list" style="display:flex; flex-direction: row; gap:1em; ">
-                  <!--<li><a>LinkedIn</a> <i class="fa-brands fa-linkedin"></i></li>--> 
-                  <li>
-                    <a href="https://www.linkedin.com/in/arturo-mendoza-rendon/" aria-label="link to arturos linkedin"> 
-                      <i class="fa-brands fa-linkedin" style="font-size: 1.025rem;"></i>
-                    </a>
-                  </li> 
-                  <li>
-                    <a href='mailto:arturo@iamuxui.dev?subject=Contact%20me' aria-label="send mail to arturo">
-                      <i class="fas fa-envelope"></i>
-                    </a>
-                  </li>
-                 </ul>
-                 
-                 <div style="padding-top: 1rem;">
-                   <h4 class="brand__name--footer--titles">
-                    <a href='./assets/Arturo_MR_UXUI.pdf' download aria-label="Downloan Arturo resume">Resume <i class="fa-solid fa-file-arrow-down" style="font-size: 1.025rem;"></i>
-                    </a>
-                  </h4>
-                </div>
+            <div class="helper">
+              <h4 class="brand__name--footer--titles">Contact</h4>
+              <ul
+                class="second__colortxt footer__list"
+                style="display: flex; flex-direction: row; gap: 1em"
+              >
+                <!--<li><a>LinkedIn</a> <i class="fa-brands fa-linkedin"></i></li>-->
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/arturo-mendoza-rendon/"
+                    aria-label="link to arturos linkedin"
+                  >
+                    <i
+                      class="fa-brands fa-linkedin"
+                      style="font-size: 1.025rem"
+                    ></i>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:arturo@iamuxui.dev?subject=Contact%20me"
+                    aria-label="send mail to arturo"
+                  >
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+
+              <div style="padding-top: 1rem">
+                <h4 class="brand__name--footer--titles">
+                  <a
+                    href="./assets/Arturo_MR_UXUI.pdf"
+                    download
+                    aria-label="Downloan Arturo resume"
+                    >Resume
+                    <i
+                      class="fa-solid fa-file-arrow-down"
+                      style="font-size: 1.025rem"
+                    ></i>
+                  </a>
+                </h4>
               </div>
+            </div>
           </div>
-            <p class="footer__copyright">last update 2023</p>
+          <p class="footer__copyright">last update 2023</p>
         </footer>
-        
-        
-        <button onclick="topFunction()" id="myBtn" title="Go to top" aria-label="button to scroll to the top"><i class="fa-solid fa-arrow-up"></i></button>
 
-     </div>
+        <button
+          onclick="topFunction()"
+          id="myBtn"
+          title="Go to top"
+          aria-label="button to scroll to the top"
+        >
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
     </div>
-   
-    
-</body>
+  </body>
 </html>
